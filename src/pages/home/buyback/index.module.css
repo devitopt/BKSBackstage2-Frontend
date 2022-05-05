@@ -1,0 +1,200 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 1360px;
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+
+.title {
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.buybacks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    margin-bottom: 120px;
+}
+
+.buyback {
+    width: 32%;
+    background: linear-gradient(44.98deg, rgba(98, 98, 254, 0) 14.65%, rgba(97, 97, 247, 0.1198) 23.12%, rgba(94, 93, 229, 0.2882) 35.03%, rgba(88, 87, 199, 0.4854) 48.98%, rgba(81, 79, 157, 0.7045) 64.48%, rgba(72, 69, 104, 0.9389) 81.06%, #454259 85.38%);
+    border-radius: 14px;
+}
+
+.buyback_padding {
+    padding-top: 64px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.buyback_image {
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.buyback_title {
+    font-size: 54px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.buyback_content {
+    font-size: 24px;
+    color: #B9B9DB;
+}
+
+.flow_title {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.burnflows_wrapper {
+    position: relative;
+}
+
+.burnflows_back {
+    width: 100%;
+}
+
+.burnflows {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.burnflow {
+    width: 25%;
+}
+
+.burnflow_padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 54px;
+    padding-right: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.burnflow_title {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.burnflow_image {
+    margin-bottom: 30px;
+}
+
+.burnflow_content {
+    font-size: 24px;
+    color: #B9B9DB;
+}
+
+@media (max-width: 768px) {
+    .content {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 35px;
+    }
+
+    .buybacks {
+        margin-bottom: 100px;
+    }
+
+    .buyback {
+        width: 100%;
+    }
+
+    .buyback_padding {
+        padding-top: 48px;
+        padding-bottom: 34px;
+    }
+
+    .buyback_image {
+        width: 70px;
+        height: auto;
+    }
+
+    .buyback_title {
+        font-size: 30px;
+    }
+
+    .buyback_content {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+    }
+
+    .flow_title {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 32px;
+    }
+
+    .burnflows_back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .burnflows {
+        position: relative;
+        gap: 30px;
+    }
+
+    .burnflow {
+        width: 100%;
+    }
+
+    .burnflow_padding {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 35px;
+        padding-right: 35px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .burnflow_title {
+        font-size: 16px;
+        letter-spacing: 0.1em;
+    }
+
+    .burnflow_content {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

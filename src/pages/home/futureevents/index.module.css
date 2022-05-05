@@ -1,0 +1,123 @@
+.future_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.future {
+    width: 1360px;
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+
+.future_text {
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.items_box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 75px;
+}
+
+.item_wrapper {
+    /* width: 48%; */
+    width: 586px;
+    /* position: relative; */
+    background: linear-gradient(44.98deg, rgba(98, 98, 254, 0) 14.65%, rgba(97, 97, 247, 0.1198) 23.12%, rgba(94, 93, 229, 0.2882) 35.03%, rgba(88, 87, 199, 0.4854) 48.98%, rgba(81, 79, 157, 0.7045) 64.48%, rgba(72, 69, 104, 0.9389) 81.06%, #454259 85.38%);
+    border-radius: 12.1693px;
+
+}
+
+.item_wrapper:hover {
+    /* filter: drop-shadow(0px 0px 8px #6A4DFD); */
+    background: #6A4DFD;
+    transform: translate(0, -4px);
+}
+
+.item_back {
+    width: 100%;
+}
+
+.item {
+    width: 100%;
+    /* position: absolute; */
+    /* top: 0; */
+}
+
+.item_padding {
+    padding-left: 55px;
+    padding-right: 40px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.item_image {
+    height: 75px;
+    margin-bottom: 22px;
+}
+
+.item_title {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.item_content {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #B9B9DB;
+}
+
+@media (max-width: 768px) {
+    .future {
+        /* width: 81%; */
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    .future_text {
+        font-size: 32px;
+        line-height: 34px;
+        margin-bottom: 50px;
+    }
+
+    .item_wrapper {
+        width: 100%;
+    }
+
+    .item_padding {
+        padding-left: 27px;
+        padding-right: 27px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .item_title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .item_content {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+    }
+}

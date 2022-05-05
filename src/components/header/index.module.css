@@ -1,0 +1,147 @@
+.header_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    z-index: 99;
+}
+
+.header {
+    width: 1360px;
+    display: flex;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_sect {
+    display: flex;
+    text-decoration: none;
+}
+
+.logo_image_wrapper {
+    display: flex;
+}
+
+.logo_image {
+    height: 70px;
+}
+
+.mobile_menu {
+    display: none;
+    height: 24px;
+}
+
+.logo_title {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'helvetaica';
+    font-weight: bold;
+    color: white;
+    margin-left: 15px;
+}
+
+.top_menus {
+    display: flex;
+    gap: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+    color: white;
+}
+
+.top_menu {
+    color: white;
+    text-decoration: auto;
+}
+
+.menu :hover {
+    color: #6A4DFD;
+}
+
+.mobile_splitter {
+    display: none;
+}
+
+.top_links {
+    display: flex;
+    gap: 20px;
+}
+
+a .top_link_image_hover {
+    display: none;
+}
+
+a:hover .top_link_image {
+    display: none;
+}
+
+a:hover .top_link_image_hover {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .header_wrapper {
+        /* top: 24px; */
+        top: 0px;
+        padding-top: 24px;        
+    }
+
+    .header {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        row-gap: 55px;
+    }
+
+    .logo_sect {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .logo_image {
+        height: 36px;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    .top_menus {
+        gap: 27px;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.1em;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mobile_splitter {
+        display: block;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        width: 100%;
+    }
+
+    .top_links {
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .top_link_image {
+        height: 24px;
+    }
+    
+    .top_link_image_hover {
+        height: 24px;
+    }
+}
